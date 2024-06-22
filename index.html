@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d7ae760bb2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="top">
+                <h1 class="logo"><span>M</span>egha.</h1>
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="shift-right align">
+            <div class="header-text ">
+                <h1>I'm Megha <span>Yadav</span></h1>
+                <p>This is my official portfolio website to show all details<br>and work experiances in  Web Development</p>
+            </div>
+
+          
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/megha-273937235/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Megha-yadavv" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.hackerrank.com/profile/meghayadav5216" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+               
+              </div>
+            </div>
+              <a href="./imges/Megha_Yadav_Resume.pdf" download class="btn3">Download CV</a>
+        </div>
+       
+       
+    </div>
+   <!-- -------------------about---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                  
+                </div>
+                <div class="about-col-2 ">
+                    <h1 class="sub-title align">About Me</h1>
+                    <p class="align">Aspiring software and web developer with a passion for innovation and continuous learning. 
+                        Proficient in various programming languages, eager to contribute to cutting-edge projects in the field. 
+                        Ready to dive into software and web development, committed to continuous growth and excellence.</p>
+                         <div class="tab-titles ">
+                            <p class="tab-links active-link " onclick="opentab('education')">Education</p>
+                            <p class="tab-links"  onclick="opentab('Skills')">Skills</p>
+                         </div>
+                         <div class="tab-contents active-tab align" id="education">
+                            <ul>
+                                <li><span>2019-2023</span><br>B.tech <br> NIET, Greater Noida <span class="space">80%</span> </li>
+                                <li><span>2017-2018</span><br>12th <br>Army public school, shankar vihar, Delhi <span class="space">70%</span></li>
+                                <li><span>2015-2016</span><br>10th <br>Army public school, Jodhpur <span class="space">87.4%</span> </li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents align " id="Skills">
+                            <ul>
+                                <li><span>python</span></li>
+                                <li><span>c programming</span></li>
+                                <li><span>HTML</span></li>
+                                <li><span>CSS</span></li>
+                                <li><span>JavaScript</span></li>
+                                <li><span>Mysql</span></li>
+                                <li><span>DBMS</span></li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Proficiency in web development encompasses HTML, CSS, and JavaScript skills, allowing creation of interactive and visually 
+                        appealing websites. Experienced with frameworks like Bootstrap, enabling rapid development and responsive design implementation. 
+                        Ready to contribute to projects that demand dynamic and engaging web experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>python</h2>
+                    <p>Python proficiency acquired encompasses programming fundamentals, OOP, and data structures, 
+                        applied to web development and data analysis with libraries like Pandas, facilitating versatile solutions 
+                        across industries.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                     <h2>Mysql</h2>
+                     <p> foundational knowledge in database management, including database creation, basic querying, and data manipulation.
+                          </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------portfoliio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+           <div class="work-list">
+            <div class="work">
+                <img src="./imges/menu-logo2.jpg" alt="img">
+                <div class="layer">
+                    <h3>Restraurant Menu</h3>
+                    <p> menu landing page was designed using HTML and CSS, 
+                        ensuring a seamless blend of structure and style. 
+                        Every detail, from layout to color scheme, was carefully
+                         crafted to create a visually appealing and user-friendly experience.
+                          With HTML providing the framework and CSS adding the aesthetic touch, 
+                          our menu page showcases our culinary offerings with elegance and simplicity.
+
+
+
+                    </p>
+                    <a href="https://megha-yadavv.github.io/menu-landingpage/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work"></div>
+            <div class="work"></div>
+           </div>
+           <a href="#" class="btn">See more</a>
+        </div>
+
+
+    </div>
+<!-- --------------------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>meghayadav5216@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i>9694005216</p>
+              
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="mail" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i>Copyright2024.Megha</p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+
+
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById('side-menu');
+        function openmenu()
+        {
+            sidemenu.style.right=0;
+        }
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbydTUuzVJ-IV2UEn4jApUgSHykgAoQ9rKDwP8yQii0dmfjjPXrojV4uyAjYOPMuHgMz/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+                form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
